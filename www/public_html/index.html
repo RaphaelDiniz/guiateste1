@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Guia Itaperuna App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <!-- abaixo colocar CSS-->
+        <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/jquery.mobile-1.4.5.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../themes/temaRaphael.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../themes/temaRaphael.css" rel="stylesheet" type="text/css"/>
+        <link href="../themes/jquery.mobile.icons.min.css" rel="stylesheet" type="text/css"/>
+        <!-- abaixo colocar JS-->
+        <script src="../js/jquery.js" type="text/javascript"></script>
+        <script src="../js/jquery.mobile-1.4.5.js" type="text/javascript"></script>
+        <script src="../js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+        <div data-role="page" id="page1">
+            <div data-role="header" data-position="fixed">
+                <h1>Guia Itaperuna</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#">One</a></li>
+                        <li><a href="#">Two</a></li>
+                        <li><a href="#">Three</a></li>
+                    </ul>
+                    <div role="main" class="ui-content">
+                        <form class="ui-filterable">
+                            <input id="filterBasic-input" data-type="search" placeholder="O que esta buscando?">   
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <ul data-role="listview" data-filter="true" 
+                data-input="#filterBasic-input" class="ui-listview ui-listview-inset ui-corner-all">
+                <li><a href="#pageAgua">Água</a></li>
+                <li><a href="#pageGas">Gás</a></li>
+                <li><a href="#pageBebidas">Bebidas</a></li>
+                <li><a href="#pageFarmacia">Farmácias</a></li>
+                <li><a href="#pageLanchonetes">Lanche</a></li>
+                <li><a href="#pageQuentinha">Quentinha</a></li>
+                <li><a href="#pagePizzaria">Pizzaria</a></li>
+                <li><a href="#pagePintor">Pintores</a></li>
+                <li><a href="#pagePedreiros">Pedreiros</a></li>
+                <li><a href="#pageEletricista">Eletricistas</a></li>
+                <li><a href="#pageCategoria">sCategoria</a></li>
+                <li><a href="#pageCategoria">sCategoria</a></li>
+            </ul>
+
+            <div data-role="footer" data-position="fixed">          
+                <h4>Guia Itaperuna - Todos direitos reservados.</h4>
+            </div>
+        </div>
+
+        <!-- Start of second page -->
+        <div data-role="page" ID="pageBebidas">
+            <!-- /header -->
+            <div data-role="header" data-position="fixed">
+                <h1>BEBIDAS</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#page1">HOME</a></li>
+                        <li><a href="#">Two</a></li>
+                        <li><a href="#">Three</a></li>
+                    </ul>
+                <div role="main" class="ui-content">
+                        <form class="ui-filterable">
+                            <input id="filterBasic2-input" data-type="search" placeholder="O que esta buscando?">   
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <ul data-role="listview" data-filter="true" 
+                data-input="#filterBasic-input" class="ui-listview ui-listview-inset ui-corner-all"></ul> 
+             
+            <div data-role="content">
+
+                <div class="card">
+                    <div class="card-image image2">
+                        <div class="banner"></div>
+                        <div class="alignCenter">
+                            <h2><p>DisK Bebidas Vinhosa<p></h2>
+                            <h3>3824-6569 - 99988-2914</h3>
+                        </div>
+                    </div>
+                    <div class="alignCenter">
+                        <p><button class="btn-flat" data-icon="phone" data-inline="true" data-theme="a">Ligar</button>
+                            <button class="btn-flat" data-icon="star" data-inline="true">Favorito</button>
+                    </div>
+                </div>
+                <br />
+                <ul data-role="listview" data-split-icon="gear" data-split-theme="a" data-inset="true"
+                data-filter="true" data-input="#filterBasic2-input" class="ui-listview ui-listview-inset ui-corner-all">
+                    <li><a href="#">
+                            <img src="../img/bebida1.jpg" alt=""/>
+                            <h2>Disk Bebidas 2</h2>
+                            <p>2299847-8789</p></a>
+                        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+                        <button class="btn-flat" data-icon="phone" data-inline="true" data-theme="a"></button>
+                    </li>
+                    <li><a href="#">
+                            <img src="../img/bebida1.jpg" alt=""/>
+                            <h2>Bisk Bebidas 3</h2>
+                            <p>2299847-8789</p></a>
+                        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+                        <button class="btn-flat" data-icon="phone" data-inline="true" data-theme="a"></button>
+                    </li>
+                    <li><a href="#">
+                            <img src="../img/bebida1.jpg" alt=""/>
+                            <h2>Cisk Bebidas 4</h2>
+                            <p>2299847-8789</p></a>
+                        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+                        <button class="btn-flat" data-icon="phone" data-inline="true" data-theme="a"></button>
+                    </li>
+                    <li><a href="#">
+                            <img src="../img/bebida1.jpg" alt=""/>
+                            <h2>Cisk Bebidas 4</h2>
+                            <p>2299847-8789</p></a>
+                        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+                        <button class="btn-flat" data-icon="phone" data-inline="true" data-theme="a"></button>
+                    </li>
+                    <li><a href="#">
+                            <img src="../img/bebida1.jpg" alt=""/>
+                            <h2>Cisk Bebidas 4</h2>
+                            <p>2299847-8789</p></a>
+                        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+                        <button class="btn-flat" data-icon="phone" data-inline="true" data-theme="a"></button>
+                    </li>
+                    <li><a href="#">
+                            <img src="../img/bebida1.jpg" alt=""/>
+                            <h2>Cisk Bebidas 4</h2>
+                            <p>2299847-8789</p></a>
+                        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+                        <button class="btn-flat" data-icon="phone" data-inline="true" data-theme="a"></button>
+                    </li>
+                    <li><a href="#">
+                            <img src="../img/bebida1.jpg" alt=""/>
+                            <h2>Cisk Bebidas 4</h2>
+                            <p>2299847-8789</p></a>
+                        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+                        <button class="btn-flat" data-icon="phone" data-inline="true" data-theme="a"></button>
+                    </li>
+                </ul> 
+            </div>
+        </div>
+              
+        <!-- /footer -->
+        <div data-role="footer" data-position="fixed">          
+            <h4>Guia Itaperuna - Todos direitos reservados.</h4>
+        </div>
+    </body>
+
+</html>
