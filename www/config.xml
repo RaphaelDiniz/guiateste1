@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.guiaitaperuna.app"
+        versionCode = "1"
+        version     = "1.0.0" >
+    
+    <name>Guia Itaperuna App</name>
+    
+    <description>Guia Comercial da Cidade.</description>
+    
+    <authors>Raphael Diniz</authors>
+    
+    <preference name ="orientation" value="portrait"/>
+    
+</widget>
