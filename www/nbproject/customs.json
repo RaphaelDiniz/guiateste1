@@ -1,0 +1,19 @@
+{
+    "elements": {
+        "p": {}
+    },
+    "attributes": {
+        "mbsc-card": {
+            "context": "div"
+        },
+        "color": {
+            "context": "button"
+        },
+        "card-sec": {
+            "context": "div"
+        },
+        "mbsc-page": {
+            "context": "div"
+        }
+    }
+}
